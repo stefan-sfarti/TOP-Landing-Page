@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#Logo {
+    width: 40px;
+    height: 40px;
+}
+
+#Image1 {
+    width: 200px;
+
+    border: black;
+    border-style: solid;
+}
+
+#contact-button {
+    color: white;
+    background-color: #3882f6;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+#contact-button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+#info-header-text {
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.left-link {
+    margin-left: 30px;
+}
+
+.right-links {
+    margin-right: 30px;
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+
+}
+
+.right-links a {
+    text-decoration: none;
+    color: #e2fff1;
+}
+
+.right-links a:visited {
+    color: #e2fff1;
+}
+
+.content-1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    height: max-content;
+}
+
+.resources {
+    display: flex;
+    justify-content: center;
+    flex-basis: max-content;
+}
+
+.box {
+    border: black;
+    border-style: solid;
+    margin: 20px;
+}
+
+#box1, #box2, #box3, #box4 {
+    width: 100%;
+    height: 100%;
+}
