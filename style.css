@@ -22,6 +22,9 @@
     border-style: solid;
     border-width: 1px;
     border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px;
 }
 
 #contact-button:hover {
@@ -29,6 +32,9 @@
     opacity: 0.8;
 }
 
+#title{
+    margin-bottom: 20px;
+}
 
 #info-header-text {
     font-size: 26px;
@@ -41,6 +47,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    height: 50px;
 }
 
 .left-link {
@@ -71,6 +78,7 @@
     background-color: #1F2937;
     color: white;
     height: max-content;
+    margin-bottom: 50px;
 }
 
 .resources {
@@ -83,11 +91,80 @@
     border: black;
     border-style: solid;
     margin: 20px;
+
 }
 
 #box1, #box2, #box3, #box4 {
-    width: 250px;
+    width: 200px;
     height: 100%;
+    display: flex;
+}
+a {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
 
+.content-3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    background-color: #E5E7EB;
+    margin-top: 50px;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+}
+#author {
+    margin-left: 450px;
+}
+.content-4 {
+    height: 350px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#blue-box{
+    background-color: #3882f6;
+    height: 100px;
+    width: 1200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#bottom-text {
+    display: flex;
+    flex-direction: column;
+}
+#call-to-action {
+    color: white;
+    background-color: #3882f6;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+#call-to-action:hover {
+    cursor: pointer;
+}
+.footer {
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
